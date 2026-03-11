@@ -1,2 +1,6 @@
 git config --global user.name "XDree"
 git config --global user.email ivan.lebedev5454@gmail.com
+
+
+php artisan config:clear
+php artisan view:clear
