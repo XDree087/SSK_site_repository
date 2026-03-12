@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="container">
+    <div class="containers">
         @include('components.header')
 
         <main class="d-flex justify-content-between align-items-center">
@@ -27,6 +27,10 @@
 
             <img src="{{ asset('images/Main_illustration.png') }}" alt="">
         </main>
+
+        @include('components.footer')
     </div>
+
+    
 @endsection
 
