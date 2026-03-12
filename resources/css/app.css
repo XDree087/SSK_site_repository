@@ -26,4 +26,52 @@ p{
 }
 a{
     font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+body{
+    display: flex;justify-content: center;align-items: center;
+    background-color: #F3F3F3;
+}
+
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-semiBold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.login-page{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+
+    
+}
+
+.login-page a{
+    color: red;
+    
 }
