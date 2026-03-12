@@ -1,4 +1,6 @@
 @extends('layouts.main')
+
+<!-- Нащвании вкладки в браузере -->
 @section("header-title")
 Внутренний сайт компанни SSK
 @endsection
