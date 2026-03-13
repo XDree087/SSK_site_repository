@@ -16,5 +16,11 @@
     },
     "dependencies": {
         "bootstrap": "^5.3.8"
-    }
+    },
+    
+    "scripts": {
+        "compile:sass": "sass input.scss output.css"
+        }
+    
+
 }

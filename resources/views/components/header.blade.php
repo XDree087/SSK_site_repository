@@ -1,4 +1,4 @@
-<header class="bg-white d-flex justify-content-center align-items-center">
+<header class=" header bg-white d-flex justify-content-center align-items-center">
             <div class="header__wrap d-flex justify-content-between align-items-center">
 
                 <img onclick="document.location='/home'" src="{{ asset('images/logo.png') }}" alt="Лого SKK">

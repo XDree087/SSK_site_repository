@@ -1,4 +1,4 @@
-header{
+.header{
     margin-top: 50px;
     width: 1420px;
     height: 140px;
@@ -12,7 +12,7 @@ header{
 }
 a:hover{
     text-decoration: underline;
-    color: #643FFF;
+    color: var(--color-purple);
 }
 
 nav{
@@ -35,7 +35,7 @@ nav{
 .header__btn:hover{
     color: white;
     border: 2px solid white;
-    background-color: #643FFF;
+    background-color: var(--color-purple);
 }
 
 .main_btn{
@@ -45,12 +45,12 @@ nav{
     color: white;
     border: none;
     border-radius: 15px;
-    background-color: #643FFF;
+    background-color: var(--color-purple);
 }
 
 .main_btn:hover{
-    color: #643FFF;
-    border: 1px solid #643FFF;
+    color: var(--color-purple);
+    border: 1px solid var(--color-purple);
     background-color: white;
 }
 
@@ -68,3 +68,4 @@ main{
 .home_main-blok__wrap{
     height: 337px;
 }
+
