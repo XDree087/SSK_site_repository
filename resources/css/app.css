@@ -101,4 +101,6 @@ body{
     align-items: center;
 }
 
-
+.main-info__person h6{
+    color:#643FFF;
+}
