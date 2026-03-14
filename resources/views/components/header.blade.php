@@ -4,9 +4,9 @@
                 <img onclick="document.location='/home'" src="{{ asset('images/logo.png') }}" alt="Лого SKK">
 
                 <nav>
-                    <a class="montserrat-regular" href="">Мои итоги</a>
-                    <a class="montserrat-regular" href="">Заявки</a>
-                    <button onclick="document.location='/'" class="montserrat-regular header__btn">Личный кабинет</button>
+                    <a class="montserrat-regular" href="/account/statistic">Мои итоги</a>
+                    <a class="montserrat-regular" href="/applications">Заявки</a>
+                    <button onclick="document.location='/account'" class="montserrat-regular header__btn">Личный кабинет</button>
                 </nav>
 
             </div>

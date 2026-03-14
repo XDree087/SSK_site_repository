@@ -26,7 +26,7 @@
                     SSK, ввод доступен только сотрудникам<br> 
                     и никому больше</h6>
 
-                    <button onclick="document.location='/'" class="montserrat-regular main_btn">Личный кабинет</button>
+                    <button onclick="document.location='/account'" class="montserrat-regular main_btn">Личный кабинет</button>
 
                 </div>
                 
