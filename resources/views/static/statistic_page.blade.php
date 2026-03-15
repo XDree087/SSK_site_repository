@@ -45,7 +45,23 @@
                 </nav>
             </div>
         </div>
-        <div class="account__info"></div>
+
+        
+        <div class="account__info d-flex justify-content-between align-items-center flex-column">
+            <div class="montserrat-regular bg-white account__info_welcome d-flex justify-content-center align-items-center">
+                <div class="account__info_welcome_wrap d-flex justify-content-between align-items-center">
+                    <h4 class='montserrat-regular'>Статистика и аналитика</h4>
+                    <div class="account__info_welcome_name d-flex justify-content-between align-items-center">
+                        <div class="small__avatar d-flex justify-content-center align-items-center">ФИ</div>
+                        <p>Фамилия имя</p>
+                    </div>
+                </div> 
+            </div>
+
+
+
+            @include('components.footer')
+        </div>
     </div>
  
 @endsection
